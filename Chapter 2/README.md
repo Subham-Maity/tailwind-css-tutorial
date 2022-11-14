@@ -1,6 +1,42 @@
 
 
-## Introduction
+<Callout type="info" emoji="💡">
+  <div >
+    <h5 className="text-left h-10 text-gray-400 font-extrabold md:text-1xl mt-0 mb-0" > Click here if you would like to modify or contribute </h5>
+    <a href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">
+      <img align="left"
+           alt="GitHub"
+           src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+      />
+      <p align="left">
+        <img src="https://media1.giphy.com/media/2HCaWITqHdJmmEA2b7/giphy.webp?cid=ecf05e47oblnld6xqs4q4svq3w8lnpcltavzi667j872uwq7&rid=giphy.webp&ct=s"  width="50"/>
+      </p>
+    </a>
+  </div>
+</Callout>
+
+# Introduction
+
+## Message from the Developer
+
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,borderRadius: "20px" ,overflow: "hidden" }  }>
+  <div align="center">
+    <div style={{ border: '1px solid #888', padding: '0rem 1rem', textAlign: 'center' }}>
+      <h2 align="left">Author</h2>
+      <p align="center">
+        <img style={{ border:"solid #888" ,opacity: 1 ,borderRadius: "20px" ,overflow: "hidden" }  } src="https://media4.giphy.com/media/Hicydpti7wG3vA8Zr4/giphy.gif?cid=ecf05e47pq44hry9re27thxnjcezuifd6b0gzyvbxpfy4ua3&rid=giphy.gif&ct=g"/>
+      </p>
+      _Hey I'm your XAM(subham). In this tutorial you will learn how to create a basic website using tailwind css. I hope you will enjoy this tutorial. If you have any doubt or suggestion please feel free to contact me. I will be happy to help you. Thank you for your support. Have a nice day!_
+      — Xam
+      <h7 align="center">
+        **Are you exited to learn about the Tailwind CSS?**
+        I promise you, you'll get a million dollar course free of charge and a complete step-by-step guide in the course . So, what are you waiting for?
+      </h7>
+    </div>
+  </div></div>
+
+
 - Why should we use tailwind css in our project?
 <details>
   <summary>Answer</summary>
@@ -229,4 +265,11 @@ module.exports = {
   Using tailwind ‘Tailwind CSS IntelliSense’ extension in VS Code will help you to write tailwind classes. You can check the official documentation [here](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
 </Callout>
 
+### Start Vite
+Now, we can start Vite by using the below command-line:
+```bash {1} filename="terminal"
+npm start
+```
 
+## All Files For This Tutorial
+You can download all the files from github [here](https://github.com/Subham-Maity/tailwind-css-tutorial/tree/main/Chapter%201)
