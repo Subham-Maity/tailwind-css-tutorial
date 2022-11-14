@@ -1,5 +1,3 @@
-
-
 <Callout type="info" emoji="💡">
   <div >
     <h5 className="text-left h-10 text-gray-400 font-extrabold md:text-1xl mt-0 mb-0" > Click here if you would like to modify or contribute </h5>
@@ -15,210 +13,77 @@
   </div>
 </Callout>
 
-# Introduction
+# Basic Portfolio website using tailwind css
 
 ## Message from the Developer
 
 
-<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,borderRadius: "20px" ,overflow: "hidden" }  }>
-  <div align="center">
-    <div style={{ border: '1px solid #888', padding: '0rem 1rem', textAlign: 'center' }}>
-      <h2 align="left">Author</h2>
-      <p align="center">
-        <img style={{ border:"solid #888" ,opacity: 1 ,borderRadius: "20px" ,overflow: "hidden" }  } src="https://media4.giphy.com/media/Hicydpti7wG3vA8Zr4/giphy.gif?cid=ecf05e47pq44hry9re27thxnjcezuifd6b0gzyvbxpfy4ua3&rid=giphy.gif&ct=g"/>
-      </p>
-      _Hey I'm your XAM(subham). In this tutorial you will learn how to create a basic website using tailwind css. I hope you will enjoy this tutorial. If you have any doubt or suggestion please feel free to contact me. I will be happy to help you. Thank you for your support. Have a nice day!_
-      — Xam
-      <h7 align="center">
-        **Are you exited to learn about the Tailwind CSS?**
-        I promise you, you'll get a million dollar course free of charge and a complete step-by-step guide in the course . So, what are you waiting for?
-      </h7>
+ <div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,borderRadius: "35px" ,overflow: "hidden" }  }>
+    <div align="center">
+  <div style={{ border: '1px solid #888', padding: '0rem 1rem', textAlign: 'center' }}>
+    <h2 class="pb-4" align="left">Author</h2>
+    <div style={{ border:"none", position: "relative" ,opacity: 1 ,borderRadius: "45px" ,overflow: "hidden" }  }>
+    <p align="center">
+      <img src="https://user-images.githubusercontent.com/97989643/201677987-b089d002-66fb-4c4d-85ab-f666cd8d891a.png"/>
+    </p>
     </div>
-  </div></div>
-
-
-- Why should we use tailwind css in our project?
-<details>
-  <summary>Answer</summary>
-  Tailwind CSS makes it quicker to write and maintain the code of your application.One of the reasons Tailwind CSS is so much better than Bootstrap is that it doesn't impose difficult-to-reverse design decisions since apps and sites are made up of pre-designed widgets. With Tailwind CSS, you just need a set of utility classes, so you can work with exactly what you want.
-</details>
-
-- What Exactly is Tailwind CSS?
-
-
-<details>
-  <summary>Answer</summary>
-  It's a low-level CSS framework that lets you create custom-built designs without having to override opinionated component styles. It's really easy to create beautiful custom user interfaces with CSS without having to spend much time coding. The utility-first design of Tailwind CSS allows you to style every component specifically, the way you want. Adapting the "form follow function", the name of the utility class predicts its exact function to make it easier to design. Using Tailwind, you can customize and extend the most critical CSS properties.
-</details>
-
-
-- Advantages of Using Tailwind CSS
-
-
-<details>
-  <summary>Answer</summary>
-  1. **It is Highly Customizable:** Tailwind CSS is a highly customizable framework. Although it comes with a default configuration, it is simple to override it with a tailwind.config.js file. The configuration file enables easy customization of color palettes, styling, spacing, themes, etc. Tailwind combines the perfect utilities that facilitate easy management of projects and derive maximum CSAT.
-
-  2. **It Has Common Utility Patterns:** Eliminate the hassle of naming classes with Tailwind CSS. The availability of common utility patterns solves numerous problems like specifying classes, organizing them, cascading them, and much more. Utility classes simplify the process of creating custom components. You do not need to hard-code with Tailwind CSS. You can apply the theme() function to extract values from the configuration files.
-
-  3. **It Can Be Optimized Using PurgeCSS:** A major advantage of Tailwind CSS is that optimization can be performed using PurgeCSS. PurgeCSS can reduce the file size considerably by scanning the HTML and removing unused classes. It is easy to set up PurgeCSS in combination with Tailwind CSS and is highly recommended to do so before deploying the site. As the size of the project grows, the size of the CSS file also increases. However, this does not happen when using Tailwind. The use of a standardized set of classes keeps the file size small as long as the project remains active.
-
-  4. **It Enables Building Complex Responsive Layouts Freely:** The Tailwind CSS framework uses a default mobile-first approach. The availability of utility classes makes it easier to build complex responsive layouts freely. Utility classes can be used across a variety of breakpoints conditionally which helps in building complex responsive layouts hassle-free.
-
-  5. **It Facilitates Fluid Community Interaction:** Stuck with an unsolvable issue? The Tailwind CSS community can be the perfect solution. Become a part of this community and get comprehensive assistance from fellow users as and when required. Find answers to all your CSS-related queries on-the-go and create exceptional applications/websites without any hurdle. The Tailwind CSS team offers quick solutions for the speedy resolution of issues.
-</details>
-
-## Setting up Tailwind CSS
-
-<h4 className="text-center font-extrabold md:text-2xl mt-8">Installation</h4>
+    _Hey I'm your XAM(subham). In this tutorial you will learn how to create a basic website using tailwind css. I hope you will enjoy this tutorial. If you have any doubt or suggestion please feel free to contact me. I will be happy to help you. Thank you for your support. Have a nice day!_
+    — Xam
+    <h7 align="center">
+      **Are you exited to learn about the Tailwind CSS?**
+      I promise you, you'll get a million dollar course free of charge and a complete step-by-step guide in the course . So, what are you waiting for?
+    </h7>
+  </div>
+</div></div>
 
 
 
-Install Tailwind CSS
 
-First of all, we will install some important programs which will be required throughout our Tailwind Journey-
+## Landing Page Setup
+Landing page is the first page of your website. It is the first impression of your website. So, it is very important to make a good first impression. In this tutorial, we will create a landing page for our website. We will use tailwind css to create our landing page. So, let's get started.
 
-- **Install VS code:** You can download VS code from [here](https://code.visualstudio.com/download).
-- **Install Live Server:** You can download Live Server from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). This will help us to run our project on a local server.
-- **Adding Tailwind CSS:** To add tailwind CSS to your file, simply visit the official documentation of tailwind CSS [here](https://tailwindcss.com/docs/installation). You can also use the CDN link to add tailwind CSS to your project. You can find the CDN link [here](https://tailwindcss.com/docs/installation/play-cdn).
+<div style={{margin:"2%" }  } class="gradient-border" id="box"> </div>
 
-<Callout>
-      <p>
-        <strong>Note:</strong> You can also use it for React, Vue, Angular, Svelte, etc. You can find the documentation for all of them [here](https://tailwindcss.com/docs/installation).
-      </p>
+## Setup our project
+- We create a `experiment folder` in our local machine.
+- We create a `index.html` file in our experiment folder.
+- Open your `terminal` in vscode and type the following command.
+```bash {1}
+npm init
+```
+→ Then just press enter to all the questions.
+
+<Callout type="info" emoji="💡">
+
+If you want to skip all the questions then you can use the following command `npm init -y`
+
 </Callout>
 
-After that, From the play CDN section, just copy the script and add it to the `<head>` of your HTML file. Hence, we can now use Tailwind CSS in our HTML file.
-
-- **Install Node Js:** You can download Node Js from [here](https://nodejs.org/en/download/).Select your OS and click on next, and your Nodejs will be installed. This will help us to install tailwind CSS in our project.
-- **Installing ‘Tailwind CSS IntelliSense’ extension:** This extension provides some advanced features such as autocomplete, syntax highlighting, and linting. You can download it from [here](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
-
-
-<h4 className="text-center font-extrabold md:text-2xl mt-8">Setting</h4>
-
-`index.html`
- There have been several questions about some settings of VS Code t, so I'll walk you through them briefly. My index.html file looks like this:
-
-- add this `script` tag in the `<head>` of your HTML file and inside the `<body>` tag and inside this ``h1`` tag add `class = "text-3xl...."` like this
-
-```html filename="index.html" {6,9-11}
-  <!doctype html>
-  <html>
-  <head>
-    <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-  <h1 class="text-3xl font-bold underline text-purple-700 text-opacity-75">
-    Hello World!
-  </h1>
-  </body>
-  </html>
+- Now fire up this command in your terminal.
+```bash {1}
+npm install -D tailwindcss postcss autoprefixer vite
 ```
 
-
-- Preview of the above code:
-
-<h1 className="text-center text-3xl font-bold underline text-purple-700 text-opacity-75">
-  Hello World!
-</h1>
-
-`settings.json`
-
-
-## Experiment
-
-Let's try to make a simple nav bar using tailwind CSS
-
-
-
-```html filename="index.html" {9,10,11,17}
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <nav class="px-4 py-4 bg-[#1e293b] text-white">
-      <ul class="flex">
-        <li class="mx-2 cursor-pointer">Home</li>
-        <li class="mx-2 cursor-pointer">About</li>
-        <li class="mx-2 cursor-pointer">Contact</li>
-      </ul>
-    </nav>
-    <div class="container">
-      <h1 class="text-blue-900 my-12">CodeXam</h1>
-    </div>
-  </body>
-</html>
+- Then fire up this command in your terminal.
+```bash {1}
+npx tailwindcss init
 ```
-- Preview of the above code:
-<nav class="px-4 py-4 bg-[#1e293b] text-white">
-  <ul class="flex">
-    <li class="mx-2 cursor-pointer">Home</li>
-    <li class="mx-2 cursor-pointer">About</li>
-    <li class="mx-2 cursor-pointer">Contact</li>
-  </ul>
-</nav>
-    <div class="container">
-  <h1 class="text-blue-900 my-12">CodeXam</h1>
-</div>
+- After the execution of the above command, a Tailwind.config.js file will be created. Make sure to add a `“*”` in the content section as we will be using the Tailwind in the complete content.
 
-### Explain line by line
+ `tailwind.config.js` file 👇
 
-Check the highlighted lines `(9,10,11,17)` in the code above. Let's see what they do.
-#### Padding,Margins,Background-color,Text-color
-- `px-4` means padding in x-axis is 4. `py-4` means padding in y-axis is 4. `bg-[#1e293b]` means background color is #1e293b. `text-white` means text color is white.
-#### Flex
-- `flex` means display is flex - The flex property sets the flexible length on flexible items. Note: If the element is not a flexible item, the flex property has no effect. Details [here](https://tailwindcss.com/docs/flex).
-#### Margin and Cursor
-- `mx-2` means margin in x-axis is 2 between the elements. `cursor-pointer` means cursor is pointer when we hover over the element - The cursor property sets the type of mouse cursor, if any, to show when the mouse pointer is over an element. Details [here](https://tailwindcss.com/docs/cursor).
-#### Container
-- `text-blue-900` means text color is blue-900. `my-12` means margin in y-axis is 12. `container` means the width of the container is 100% of the screen.
-
-
-### Problems
-If you open the browser and go to the console, you will see some errors. like this
-
-<Callout>
-  cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
-  (anonymous) @ (index):62
-</Callout>
-
-basically, it is saying that we should not use the CDN link in production. So, we will install tailwind CSS in our project.
-
-### Install Tailwind CSS in our project
-
-follow the steps below to install tailwind CSS in our project.
-
-You can check the official documentation [here](https://tailwindcss.com/docs/installation/using-postcss).
-
-- Install Node Js from [here](https://nodejs.org/en/download/).
-- Open your project folder in VS Code.
-- Installing Tailwind CSS - For Production
-
-We want to use Tailwind CSS in the production of our application, therefore we would install the Tailwind with the help of Post CSS, Vite, and Autoprefixer. To install Tailwind for production, we need to install the following packages:
-```bash {1} filename="terminal"
-npm install -D tailwindcss postcss autoprefixer
+```js filename="tailwind.config.js" {3}
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
 ```
 
-### Installing Vite - For Development
-
-Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. To install Vite, we need to install the following packages:
-```bash {1} filename="terminal"
-npm install vite
-```
-
-<Callout type= 'info' emoji='😊'>
-If you want to use vite in your project you have to add this line in your `package.json` file.
-</Callout>
-
-- `package.json` file
-
-open `package.json` file add highlighted line in the code below.
+- For starting the development server, we will use vite. So,open `package.json` file add highlighted line in the code below.
 
 
 
@@ -241,35 +106,975 @@ open `package.json` file add highlighted line in the code below.
 
 It's simply saying that when we run `npm start` it will run `vite` command. You can check the official documentation [here](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
-
-### Initialising Tailwind CSS
-Finally, for the initialization of the Tailwind, you have to use the below command-line:
-```bash {1} filename="terminal"
-npx tailwindcss init
-```
-After the execution of the above command, a Tailwind.config.js file will be created. Make sure to add a “*” in the content section as we will be using the Tailwind in the complete content.
-
-- `tailwind.config.js` file
-
-```js filename="tailwind.config.js" {3}
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["*"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-<Callout type= 'info' emoji='??'>
-  Using tailwind ‘Tailwind CSS IntelliSense’ extension in VS Code will help you to write tailwind classes. You can check the official documentation [here](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
+<Callout type="info" emoji="💡">
+  You might notice that here already have a `start` script. So, we will replace it with the above code.
 </Callout>
 
-### Start Vite
-Now, we can start Vite by using the below command-line:
-```bash {1} filename="terminal"
-npm start
+- For starting the development server fire up this command in your terminal.
+```bash {1}
+npm run start
+```
+<Callout type="info" emoji="💡">
+  you can notice in your terminal something like this  Local: http://127.0.0.1:5173/ . This is the url of your development server. You can open this url in your browser.
+</Callout>
+
+- If you have Tailwind CSS IntelliSense Extension in your vscode then you will get some suggestions. If you don't have this extension then you can install it from [here](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss). Whenever you point your cursor to the class name you will see what that class does.
+
+-  In chapter one we have created a basic navbar inside `index.html` like this 👇
+
+```html filename="index.html"{6}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="px-4 py-4 bg-[#1e293b] text-white">
+      <ul class="flex">
+        <li class="mx-2 cursor-pointer">Home</li>
+        <li class="mx-2 cursor-pointer">About</li>
+        <li class="mx-2 cursor-pointer">Contact</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1 class="text-blue-900 my-12">CodeXam</h1>
+    </div>
+  </body>
+</html>
+
+```
+you can notice that we use a CDN for tailwind css.
+
+
+<div style={{margin:"2%" }  } class="gradient-border" id="box"> </div>
+
+
+## Create a basic landing page
+
+
+### Create a navbar
+- Now make a `landing.html` file in your experiment folder.
+- Add CDN link of tailwind css in your `landing.html` file like `index.html` file.
+- When you follow the link `http://127.0.0.1:5173/ ` after firing up the command `npm run start` you have to change the url to `http://127.0.0.1:5173/landing.html` to see the `landing page.`
+- Let me explain line by line (8,11,12)
+```html filename="landing.html" {8,11,12}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hey I'm a professional blockchain developer  </title>
+</head>
+<body>
+    <nav class="px-4 py-4 bg-[#1e293b] text-white">
+        <ul class="px-28 py-4 flex space-x-3 justify-end">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact US</li>
+            <li>Projects</li>
+        </ul>
+    </nav>
+
+</body>
+</html>
 ```
 
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+
+Here we have created a basic navbar.
+<img width="15%" height="2px" src="https://user-images.githubusercontent.com/97989643/201496986-b2def9d0-a6b2-46dc-94c3-ee0a7c39fd29.gif"></img>
+→ We use title tag to give a title to our website. This title will be shown in the tab of our browser.
+
+→ We use `px-4` class in the `nav` tag to give padding in the horizontal direction.(px means padding left and right)
+
+
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4">
+    <ul >
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+
+
+
+→ We use `py-4` class in the `nav` tag to give padding in the vertical direction.(py means padding top and bottom)
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 ">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+
+
+→ We use `bg-[#1e293b]` class in the `nav` tag to give background color to our navbar.
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b]  ">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+
+→ We use `text-white` class in the `nav` tag to give text color to our navbar.
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+
+→ We use `px-28` class in the `ul` tag to give padding in the horizontal direction.(px means padding left and right)
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul class="px-28">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+→ We use `py-4` class in the `ul` tag to give padding in the vertical direction.(py means padding top and bottom)
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul class="px-28 py-4" >
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+→ We use `flex` class in the `ul` tag to make our list items in a row direction.flex means flexible box. `ul` is a list tag `li` is a list item tag.
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul class="px-28 py-4 flex" >
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+→ We use `space-x-3` class in the `ul` tag to give space between the list items. space-x means space between the list items in the horizontal direction.
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul class="px-28 py-4 flex space-x-3" >
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+→ We use `justify-end` class in the `ul` tag to justify the list items in the end of the row. (We use `px-28` class because we don't want the list items to the extreme right of the screen.)
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="px-4 py-4 bg-[#1e293b] text-white">
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+
+</div>
+
+
+
+<div style={{margin:"2%" }  } class="gradient-border" id="box"> </div>
+
+
+### Logo Setup
+
+- I create a public folder and inside that folder I use a png image as a logo.(you can use image link also)
+- Use image tag inside the nav tag to show the logo.
+- For adjusting the logo size use some tailwind classes we will explain all the classes below.
+```html filename="landing.html"{11,12}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hey I'm a professional blockchain developer  </title>
+</head>
+<body>
+    <nav class="bg-[#1e293b] text-white flex justify-between">
+        <img src="./public/blue green.png" class="h-16 pt-3 pb-2 px-4 rounded-3xl border-blue-500"  alt="">
+        <ul class="px-28 py-4 flex space-x-3 justify-end">
+            <li class=" cursor-pointer">Home</li>
+            <li class=" cursor-pointer">About</li>
+            <li class=" cursor-pointer">Contact</li>
+            <li class=" cursor-pointer">Projects</li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+```
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+      <ul class="px-28 py-4 flex space-x-3 justify-end">
+        <li class=" cursor-pointer">Home</li>
+        <li class=" cursor-pointer">About</li>
+        <li class=" cursor-pointer">Contact</li>
+        <li class=" cursor-pointer">Projects</li>
+      </ul>
+  </nav>
+</div>
+<img width="15%" height="2px" src="https://user-images.githubusercontent.com/97989643/201496986-b2def9d0-a6b2-46dc-94c3-ee0a7c39fd29.gif"></img>
+→ If we don't use `flex justify-between` class in the `nav` tag then the logo and the list items will be in a column direction.
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16"/>
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+this means simply
+```css
+div {
+display: flex;
+justify-content: space-between;
+}
+```
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <div class="flex justify-between">
+    <div class="bg-red-500">CodeXam</div>
+    <div class="bg-blue-500">CodeXam</div>
+    <div class="bg-green-500">CodeXam</div>
+  </div>
+</div>
+
+
+
+→ We use `h-16` class in the `img` tag to give height to our logo. h means height.
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16"/>
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+→ We use `pt-3` class in the `img` tag to give padding in the top direction. pt means padding top.
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3"/>
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+→ We use `pb-2` class in the `img` tag to give padding in the bottom direction. pb means padding bottom.
+
+••••• Output of the above code 👇
+
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2"/>
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+→ We use `px-4` class in the `img` tag to give padding in the left and right direction. px means padding left and right.
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4"/>
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+
+→ We use `rounded-3xl` class in the `img` tag to give border radius to our logo. rounded means border radius.
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact US</li>
+      <li>Projects</li>
+    </ul>
+  </nav>
+</div>
+
+→ We use `cursor-pointer` class in li tag to give cursor pointer to our li tag. cursor means mouse pointer.
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%" }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li class=" cursor-pointer">Home</li>
+      <li class=" cursor-pointer">About</li>
+      <li class=" cursor-pointer">Contact</li>
+      <li class=" cursor-pointer">Projects</li>
+    </ul>
+  </nav>
+</div>
+
+
+
+
+
+<Callout type="info">
+  Note: A title can be added to the navbar instead of the logo. In order to add the title, you simply need to remove the image and add the title text inside the span tag. Additionally, margin, font bold, text colour, and many other properties can be used to enhance the text.
+</Callout>
+
+
+<div style={{margin:"2%" }  } class="gradient-border" id="box"> </div>
+
+### Setting up the content section
+
+#### Body
+
+- Create a container: The content section is the main section of the page. It contains the main content of the page. We will create a container for the content section.
+- Adding background colour: We will add a background colour to the content section.
+- Add Heading/Paragraph: We will add a heading and a paragraph to the content section by creating another div container and assigning the heading and paragraph to it.
+- Add a button: We will add a button to the content section. We will use the button component of tailwind css to add a button to the content section.
+- Adding Padding: We will add padding to the content section. We will use the padding classes of tailwind css to add padding to the content section.
+
+```html filename="index.html" {22-37}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hey I'm a professional blockchain developer </title>
+</head>
+
+<body>
+    <nav class="bg-[#1e293b] text-white flex justify-between">
+        <img src="./public/blue green.png" class="h-16 pt-3 pb-2 px-4 rounded-3xl" alt="">
+        <ul class="px-28 py-4 flex space-x-3 justify-end">
+            <li class=" cursor-pointer">Home</li>
+            <li class=" cursor-pointer">About</li>
+            <li class=" cursor-pointer">Contact</li>
+            <li class=" cursor-pointer">Projects</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main bg-slate-400 py-40 pl-9">
+            <div class="text-6xl"> I am a professional blockchain developer </div>
+            <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+                coding skills you desire.</p>
+            <div class="my-4">
+                <button
+                    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+                        href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+                <button
+                    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+                        href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+                        Us</a></button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+```
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+<nav class="bg-[#1e293b] text-white flex justify-between">
+  <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+  <ul class="px-28 py-4 flex space-x-3 justify-end">
+    <li class=" cursor-pointer">Home</li>
+    <li class=" cursor-pointer">About</li>
+    <li class=" cursor-pointer">Contact</li>
+    <li class=" cursor-pointer">Projects</li>
+  </ul>
+</nav>
+
+  <div class="main bg-slate-400 py-40 pl-9">
+    <div class="text-6xl"> I am a professional blockchain developer </div>
+    <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced coding skills you desire.</p>
+    <div class="my-4">
+      <button
+        class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+        href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+      <button
+        class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+        href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+        Us</a></button>
+    </div>
+  </div>
+
+</div>
+
+<img width="15%" height="2px" src="https://user-images.githubusercontent.com/97989643/201496986-b2def9d0-a6b2-46dc-94c3-ee0a7c39fd29.gif"></img>
+
+
+
+
+→ We use ``<div class="main bg-slate-400 py-40 pl-9">``  to create a container for the content section. here main is the class name and `bg-slate-400` is the background colour of the content section.
+
+→ We use ``py-40`` to add padding to the content section.
+
+→ We use ``pl-9`` to add padding to the left side of the content section. Basically our paragraph will be aligned to the left side of the content section.
+<Callout type="info">
+  For color codes you can check this website <a href="https://tailwindcss.com/docs/customizing-colors"><strong>Tailwind CSS Color Codes</strong></a>
+</Callout>
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+<div class="main bg-slate-400 py-40 pl-9">
+
+</div>
+
+</div>
+
+→ We use `text-6xl` inside the first div container to add a heading to the content section. Here `text-6xl` is the class name and `6xl` is the size of the heading.
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+  <div class="main bg-slate-400 py-40 pl-9">
+    <div class="text-6xl"> I am a professional blockchain developer </div>
+
+  </div>
+
+</div>
+
+→ We use `py-3` inside the first div container to add padding to the heading.
+
+→ We use `w-1/3` inside the first div container to set the width of the heading. Here `w-1/3` is the class name and `1/3` is the width of the heading. You can set the width of the heading from 1/12 to 12/12.
+
+
+••••• Output of the above code 👇
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+  <div class="main bg-slate-400 py-40 pl-9">
+    <div class="text-6xl"> I am a professional blockchain developer </div>
+    <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+      coding skills you desire.</p>
+  </div>
+
+</div>
+
+<div style={{margin:"2%" }  } class="gradient-border" id="box"> </div>
+
+#### Button Make
+
+→ We use `my-4` inside the first div container to add margin to the button. Here `my-4` is the class name and `4` is the margin of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+<button
+class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2"><a
+href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+<button
+class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2"><a
+href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+Us</a></button>
+</div>
+→ We use bg-sky-700 inside the button tag to set the background colour of the button. Here `bg-sky-700` is the class name and `sky-700` is the background colour of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700" >Contact
+    Us</button>
+</div>
+→ We use `px-3` inside the button tag to add padding to the button. Here `px-3` is the class name and `3` is the padding of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3" >Contact
+    Us</button>
+</div>
+→ We use `py-2` inside the button tag to add padding to the button. Here `py-2` is the class name and `2` is the padding of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3 py-2" >Contact
+    Us</button>
+</div>
+→ We use `rounded-3xl` inside the button tag to add border radius to the button. Here `rounded-3xl` is the class name and `3xl` is the border radius of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3 py-2 rounded-3xl" >Contact
+    Us</button>
+</div>
+→ We use `text-white` inside the button tag to set the text colour of the button. Here `text-white` is the class name and `white` is the text colour of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3 py-2 rounded-3xl text-white" >Contact
+    Us</button>
+</div>
+→ We use `hover:text-slate-900` inside the button tag to set the text colour of the button when we hover over it. Here `hover:text-slate-900` is the class name and `slate-900` is the text colour of the button when we hover over it.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900" >Contact
+    Us</button>
+</div>
+→ We use `hover:bg-blue-400` inside the button tag to set the background colour of the button when we hover over it. Here `hover:bg-blue-400` is the class name and `blue-400` is the background colour of the button when we hover over it.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400" >Contact
+    Us</button>
+</div>
+→ We use `mx-2` inside the button tag to add margin to the button. Here `mx-2` is the class name and `2` is the margin of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2" >Contact
+    Us</button>
+</div>
+→ We use `href="https://code-xam.vercel.app/"` inside the button tag to add a link to the button. Here `href="https://code-xam.vercel.app/"` is the link of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button
+    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2"><a
+    href="https://github.com/Subham-Maity/tailwind-css-tutorial" >Contact
+    Us</a></button>
+</div>
+→ We use `target="_blank"` inside the button tag to open the link in a new tab. Here `target="_blank"` is the attribute of the button.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button
+    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2"><a
+    href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+    Us</a></button>
+</div>
+
+→ We use `hover:border-2` inside the button tag to add border to the button when we hover over it. Here `hover:border-2` is the class name and `2` is the border of the button when we hover over it.
+••••• Output of the above code 👇
+<div class="my-4">
+  <button
+    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2"><a
+    href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+    Us</a></button>
+</div>
+
+→ We use `hover:border-white `  inside the button tag to add border colour to the button when we hover over it. Here `hover:border-white` is the class name and `white` is the border colour of the button when we hover over it.
+
+••••• Output of the above code 👇
+<div class="my-4">
+  <button
+    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+    href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+    Us</a></button>
+</div>
+
+<div class="gradient-border" id="box"> </div>
+
+
+
+#### Adding Your Profile Picture
+
+- For now I have added my own photo you can replace it with your own photo. 😉
+- Inside the public folder I add bg.png file
+- Now I'll explain line by line `22,23,38,39,40`
+
+```html filename="index.html" {22-23 ,38-40}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hey I'm a professional blockchain developer </title>
+</head>
+
+<body>
+    <nav class="bg-[#1e293b] text-white flex justify-between">
+        <img src="./public/blue green.png" class="h-16 pt-3 pb-2 px-4 rounded-3xl" alt="">
+        <ul class="px-28 py-4 flex space-x-3 justify-end">
+            <li class=" cursor-pointer">Home</li>
+            <li class=" cursor-pointer">About</li>
+            <li class=" cursor-pointer">Contact</li>
+            <li class=" cursor-pointer">Projects</li>
+        </ul>
+    </nav>
+    <main class="main bg-slate-400 flex justify-around">
+        <div class="py-40 pl-9">
+            <div class="text-6xl"> I am a professional blockchain developer </div>
+            <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+                coding skills you desire.</p>
+            <div class="my-4">
+                <button
+                    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+                        href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+                <button
+                    class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+                        href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+                        Us</a></button>
+            </div>
+        </div>
+
+   <div class = "flex items-center  ">
+    <img src = "./public/bg1.png" class="h-64 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+   </div>
+
+    </main>
+</body>
+
+</html>
+```
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+      <ul class="px-28 py-4 flex space-x-3 justify-end">
+        <li class=" cursor-pointer">Home</li>
+        <li class=" cursor-pointer">About</li>
+        <li class=" cursor-pointer">Contact</li>
+        <li class=" cursor-pointer">Projects</li>
+      </ul>
+  </nav>
+  <main class="main bg-slate-400 flex justify-around">
+    <div class="py-40 pl-9">
+      <div class="text-6xl"> I am a professional blockchain developer </div>
+      <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+        coding skills you desire.</p>
+      <div class="my-4">
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+          Us</a></button>
+      </div>
+    </div>
+
+    <div class = "flex items-center  ">
+      <img src = "https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/bg1.png?raw=true" class="h-35 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+    </div>
+
+  </main>
+</div>
+
+<img width="15%" height="2px" src="https://user-images.githubusercontent.com/97989643/201496986-b2def9d0-a6b2-46dc-94c3-ee0a7c39fd29.gif"></img>
+
+→ We use `img` tag to add our profile picture add this image inside the `public` folder. and add the `src` attribute to the `img` tag and add the path of the image.
+
+→ We use class `h-64` to set the height of the image.  `h-64` means 64px height. You can change the height according to your need.
+
+→ We use class `pt-3` to set the padding top of the image.  `pt-3` means 3px padding top. You can change the padding top according to your need for this check this official documentation [here](https://tailwindcss.com/docs/padding).
+
+→ We use class `pb-1` to set the padding bottom of the image.  `pb-1` means 1px padding bottom. You can change the padding bottom according to your need for this check this official documentation [here](https://tailwindcss.com/docs/padding).
+
+→ We use class `px-4` to set the padding left and right of the image.  `px-4` means 4px padding left and right. You can change the padding left and right according to your need for this check this official documentation [here](https://tailwindcss.com/docs/padding).
+
+→ We use class `rounded-l-3xl` to set the border radius of the image.  `rounded-l-3xl` means 3xl border radius. You can change the border radius according to your need for this check this official documentation [here](https://tailwindcss.com/docs/border-radius).
+
+**We will give you some example of border radius.**
+
+##### rounded class example
+
+###### Type 1
+```html
+<img class="rounded"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 2
+```html
+<img class="rounded-full"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-full"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 3
+```html
+<img class="rounded-tl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-tl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 4
+```html
+<img class="rounded-br-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-br-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 5
+```html
+<img class="rounded-tr-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-tr-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 6
+```html
+<img class="rounded-bl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-bl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 7
+```html
+<img class="rounded-tl-3xl rounded-br-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-tl-3xl rounded-br-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 8
+```html
+<img class="rounded-tr-3xl rounded-bl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-tr-3xl rounded-bl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+###### Type 9
+```html
+<img class="rounded-tl-3xl rounded-tr-3xl rounded-br-3xl rounded-bl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+```
+<img class="rounded-tl-3xl rounded-tr-3xl rounded-br-3xl rounded-bl-3xl"  width="15%" src="https://media.giphy.com/media/RsWTBRWrA071LXNMXM/giphy.gif"></img>
+
+ We simply use this same concept rounded-l-3xl to set the border radius of the image.
+```html
+
+<img src = "https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/bg1.png?raw=true" class="h-64 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+
+```
+••••• Output of the above code 👇
+
+<img src = "https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/bg1.png?raw=true" class="h-21 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+
+→ We need to place this image inside the main page so we can simply shift the color `bg-slate-400` inside the `div` tag to inside the ``main`` tag
+```html {1}
+<main class="main bg-slate-400 ">
+  <div class="py-40 pl-9">
+......
+  ....
+..
+```
+if we do this our image will place inside the main page
+
+
+••••• Output of the above code 👇
+
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li class=" cursor-pointer">Home</li>
+      <li class=" cursor-pointer">About</li>
+      <li class=" cursor-pointer">Contact</li>
+      <li class=" cursor-pointer">Projects</li>
+    </ul>
+  </nav>
+  <main class="main bg-slate-400">
+    <div class="py-40 pl-9">
+      <div class="text-6xl"> I am a professional blockchain developer </div>
+      <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+        coding skills you desire.</p>
+      <div class="my-4">
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+          Us</a></button>
+      </div>
+    </div>
+
+    <div>
+      <img src = "https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/bg1.png?raw=true" class="h-35 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+    </div>
+
+  </main>
+</div>
+
+→ We use `flex justify-around` inside the `main` tag to place the image and text in the center of the page and we use `flex justify-between` inside the `nav` tag to place the image and text in the center of the page
+
+You can check this official documentation for more information about space around [here](https://tailwindcss.com/docs/justify-content#space-around) and for flex you can check [here](https://tailwindcss.com/docs/flex-direction)
+
+```html {1}
+<main class="main bg-slate-400 flex justify-around ">
+  <div class="py-40 pl-9">
+......
+  ....
+..
+```
+
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li class=" cursor-pointer">Home</li>
+      <li class=" cursor-pointer">About</li>
+      <li class=" cursor-pointer">Contact</li>
+      <li class=" cursor-pointer">Projects</li>
+    </ul>
+  </nav>
+  <main class="main bg-slate-400 flex justify-around ">
+    <div class="py-40 pl-9">
+      <div class="text-6xl"> I am a professional blockchain developer </div>
+      <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+        coding skills you desire.</p>
+      <div class="my-4">
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+          Us</a></button>
+      </div>
+    </div>
+
+    <div>
+      <img src = "https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/bg1.png?raw=true" class="h-35 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+    </div>
+
+  </main>
+</div>
+
+→ We use `flex items-center` inside the `img div` tag to place the image in the center of the page you can check this official documentation for more information about flex items center [here](https://tailwindcss.com/docs/align-items#center)
+
+```html {2}
+   <div class = "flex items-center">
+    <img src = "./public/bg1.png" class="h-64 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+   </div>
+```
+••••• Output of the above code 👇
+
+<div style={{ border:"solid #888", position: "relative" ,opacity: 1 ,overflow: "hidden" , padding:"2%"   }  }>
+  <nav class="bg-[#1e293b] text-white flex justify-between">
+    <img src="https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/blue%20green.png?raw=true" class="h-16 pt-3 pb-2 px-4 rounded-3xl"  />
+    <ul class="px-28 py-4 flex space-x-3 justify-end">
+      <li class=" cursor-pointer">Home</li>
+      <li class=" cursor-pointer">About</li>
+      <li class=" cursor-pointer">Contact</li>
+      <li class=" cursor-pointer">Projects</li>
+    </ul>
+  </nav>
+  <main class="main bg-slate-400 flex justify-around ">
+    <div class="py-40 pl-9">
+      <div class="text-6xl"> I am a professional blockchain developer </div>
+      <p class="py-3 w-1/3">Showcase your knowledge of blockchain, machine learning, OOPs, DSA, and all advanced
+        coding skills you desire.</p>
+      <div class="my-4">
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900 hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://code-xam.vercel.app/" target="_blank">CodeXam Website </a></button>
+        <button
+          class="bg-sky-700 px-3 py-2 rounded-3xl text-white hover:text-slate-900  hover:bg-blue-400 mx-2 hover:border-2 hover:border-white"><a
+          href="https://github.com/Subham-Maity/tailwind-css-tutorial" target="_blank">Contact
+          Us</a></button>
+      </div>
+    </div>
+
+    <div class = "flex items-center">
+      <img src = "https://github.com/Subham-Maity/tailwind-css-tutorial/blob/main/Chapter%202/Experimets/public/bg1.png?raw=true" class="h-34 pt-3 pb-1 px-4 rounded-l-3xl border-2 border-sky-500"/>
+    </div>
+
+  </main>
+</div>
+
+## Conclusion
+You can do many thing using tailwind css and showcase your creativity. I hope you enjoyed this tutorial and learned something new. If you have any doubt or suggestion please contact us. Thank you for reading this tutorial.We will see you in the next tutorial and we will learn about more tailwind css classes and how to use them. Till then stay tuned and keep learning.
+
 ## All Files For This Tutorial
-You can download all the files from github [here](https://github.com/Subham-Maity/tailwind-css-tutorial/tree/main/Chapter%201)
+You can download all the files from github [here](https://github.com/Subham-Maity/tailwind-css-tutorial/tree/main/Chapter%202)
